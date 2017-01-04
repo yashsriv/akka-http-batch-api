@@ -3,7 +3,7 @@ package org.yashsriv.api
 import scala.concurrent.Future
 
 import akka.NotUsed
-import akka.http.scaladsl.marshallers.argonaut.ArgonautSupport
+import de.heikoseeberger.akkahttpargonaut.ArgonautSupport
 import akka.http.scaladsl.model.{ HttpRequest, HttpResponse }
 import akka.http.scaladsl.server.Route
 import akka.http.scaladsl.server.Directives

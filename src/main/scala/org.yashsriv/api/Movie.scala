@@ -8,7 +8,7 @@ import argonaut._, Argonaut._
 
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.client.RequestBuilding
-import akka.http.scaladsl.marshallers.argonaut.ArgonautSupport
+import de.heikoseeberger.akkahttpargonaut.ArgonautSupport
 import akka.http.scaladsl.marshalling.ToResponseMarshallable
 import akka.http.scaladsl.model.{ HttpResponse, HttpRequest }
 import akka.http.scaladsl.model.StatusCodes.{ OK, BadRequest }
